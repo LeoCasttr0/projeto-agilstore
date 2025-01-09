@@ -1,1 +1,1 @@
-# projeto-agilstore
+# Projeto CRUD em PHP - Loja AgilStore 🏪
