@@ -1,4 +1,4 @@
-# Projeto CRUD em PHP - Loja AgilStore 🏪
+# Projeto CRUD em Python - Loja AgilStore 🏪
 
 ## Funcionalidades :
 - Adicionar Produto: Permite que o usuário adicione um novo produto ao inventário.
