@@ -11,7 +11,7 @@ def home(request):
     if search:
         queryset = Produtos.objects.filter(nomeProduto__icontains=search)
     else:
-        queryset = Produtos.objects.all()
+        queryset = Produtos.objects.all().order_by('id');
 
     # Paginar os resultados filtrados
     paginator = Paginator(queryset, 2)  # Mostra 2 itens por página
