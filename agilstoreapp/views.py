@@ -14,7 +14,7 @@ def home(request):
         queryset = Produtos.objects.all().order_by('id');
 
     # Paginar os resultados filtrados
-    paginator = Paginator(queryset, 2)  # Mostra 2 itens por página
+    paginator = Paginator(queryset, 10)  # Mostra 10 itens por página
     page = request.GET.get('page')  # Obtém o número da página da URL
     data['db'] = paginator.get_page(page)  # Define os dados paginados
 
