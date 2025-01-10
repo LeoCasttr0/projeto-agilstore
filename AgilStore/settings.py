@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cnga+%3jap-t*m3$@i0obs0k$gj)9%)6tm3(*y^$-+%0l=fhkr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['agil-store-django.onrender.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['projeto-agilstore-1.onrender.com','127.0.0.1','localhost']
 
 
 # Application definition
