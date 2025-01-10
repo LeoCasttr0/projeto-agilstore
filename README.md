@@ -1,4 +1,7 @@
 # Projeto CRUD em Python - Loja AgilStore 🏪
+O deploy do projeto foi feito no render.
+Acesse o link abaixo para ver o projeto em produção:
+https://projeto-agilstore-1.onrender.com
 
 ## Funcionalidades :
 - Adicionar Produto: Permite que o usuário adicione um novo produto ao inventário.
